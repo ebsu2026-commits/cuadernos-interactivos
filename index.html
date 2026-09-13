@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cuadernos Interactivos — Centro Educativo Salomé Ureña</title>
+<style>
+  :root{
+    --bg:#14141f; --panel:#1e1e30; --text:#eee6d8; --text-dim:#9a95ab;
+    --accent:#f5a524; --accent-soft:rgba(245,165,36,.15); --border:#33334a;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:"Segoe UI", system-ui, -apple-system, sans-serif;
+    padding:48px 20px 60px;
+  }
+  .wrap{ max-width:980px; margin:0 auto; }
+  header{ text-align:center; margin-bottom:44px; }
+  header .icon{ font-size:2.2rem; }
+  h1{ margin:8px 0 6px; font-size:2rem; }
+  header p{ color:var(--text-dim); margin:0; font-size:1.02rem; }
+
+  .groups{ display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; }
+  .group{
+    background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:18px 20px;
+  }
+  .group h2{ margin:0 0 2px; font-size:1.1rem; }
+  .group .sub{ color:var(--text-dim); font-size:.82rem; margin:0 0 12px; }
+  .group ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+  .group li a{
+    display:block; color:var(--text); text-decoration:none; font-size:.9rem;
+    padding:7px 10px; border-radius:7px; background:#00000020;
+    transition:background .15s, color .15s;
+  }
+  .group li a:hover{ background:var(--accent-soft); color:var(--accent); }
+
+  footer{ text-align:center; margin-top:48px; color:var(--text-dim); font-size:.82rem; line-height:1.6; }
+  footer a{ color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="icon">📓</span>
+    <h1>Cuadernos Interactivos</h1>
+    <p>Cuadernos de clase con audio de pronunciación — Centro Educativo Salomé Ureña</p>
+  </header>
+
+  <div class="groups">
+
+    <div class="group">
+      <h2>Inglés · 1° Secundaria</h2>
+      <p class="sub">4 periodos</p>
+      <ul>
+        <li><a href="ingles-1ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Primer%20Periodo.html">Primer Periodo</a></li>
+        <li><a href="ingles-1ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Segundo%20Periodo.html">Segundo Periodo</a></li>
+        <li><a href="ingles-1ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Tercer%20Periodo.html">Tercer Periodo</a></li>
+        <li><a href="ingles-1ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Cuarto%20Periodo.html">Cuarto Periodo</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h2>Francés · 1° Secundaria</h2>
+      <p class="sub">4 trimestres</p>
+      <ul>
+        <li><a href="frances-1ro/Cahier%20de%20Fran%C3%A7ais%20-%20Premier%20Trimestre.html">Premier Trimestre</a></li>
+        <li><a href="frances-1ro/Cahier%20de%20Fran%C3%A7ais%20-%20Deuxi%C3%A8me%20Trimestre.html">Deuxième Trimestre</a></li>
+        <li><a href="frances-1ro/Cahier%20de%20Fran%C3%A7ais%20-%20Troisi%C3%A8me%20Trimestre.html">Troisième Trimestre</a></li>
+        <li><a href="frances-1ro/Cahier%20de%20Fran%C3%A7ais%20-%20Quatri%C3%A8me%20Trimestre.html">Quatrième Trimestre</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h2>Inglés · 2° Secundaria</h2>
+      <p class="sub">4 periodos</p>
+      <ul>
+        <li><a href="ingles-2do/Cuaderno%20de%20Ingl%C3%A9s%20-%20Primer%20Periodo.html">Primer Periodo</a></li>
+        <li><a href="ingles-2do/Cuaderno%20de%20Ingl%C3%A9s%20-%20Segundo%20Periodo.html">Segundo Periodo</a></li>
+        <li><a href="ingles-2do/Cuaderno%20de%20Ingl%C3%A9s%20-%20Tercer%20Periodo.html">Tercer Periodo</a></li>
+        <li><a href="ingles-2do/Cuaderno%20de%20Ingl%C3%A9s%20-%20Cuarto%20Periodo.html">Cuarto Periodo</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h2>Francés · 2° Secundaria</h2>
+      <p class="sub">4 trimestres</p>
+      <ul>
+        <li><a href="frances-2do/Cahier%20de%20Fran%C3%A7ais%20-%20Premier%20Trimestre.html">Premier Trimestre</a></li>
+        <li><a href="frances-2do/Cahier%20de%20Fran%C3%A7ais%20-%20Deuxi%C3%A8me%20Trimestre.html">Deuxième Trimestre</a></li>
+        <li><a href="frances-2do/Cahier%20de%20Fran%C3%A7ais%20-%20Troisi%C3%A8me%20Trimestre.html">Troisième Trimestre</a></li>
+        <li><a href="frances-2do/Cahier%20de%20Fran%C3%A7ais%20-%20Quatri%C3%A8me%20Trimestre.html">Quatrième Trimestre</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h2>Inglés · 3° Secundaria</h2>
+      <p class="sub">4 periodos</p>
+      <ul>
+        <li><a href="ingles-3ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Primer%20Periodo.html">Primer Periodo</a></li>
+        <li><a href="ingles-3ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Segundo%20Periodo.html">Segundo Periodo</a></li>
+        <li><a href="ingles-3ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Tercer%20Periodo.html">Tercer Periodo</a></li>
+        <li><a href="ingles-3ro/Cuaderno%20de%20Ingl%C3%A9s%20-%20Cuarto%20Periodo.html">Cuarto Periodo</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h2>Francés · 3° Secundaria</h2>
+      <p class="sub">4 trimestres</p>
+      <ul>
+        <li><a href="frances-3ro/Cahier%20de%20Fran%C3%A7ais%20-%20Premier%20Trimestre.html">Premier Trimestre</a></li>
+        <li><a href="frances-3ro/Cahier%20de%20Fran%C3%A7ais%20-%20Deuxi%C3%A8me%20Trimestre.html">Deuxième Trimestre</a></li>
+        <li><a href="frances-3ro/Cahier%20de%20Fran%C3%A7ais%20-%20Troisi%C3%A8me%20Trimestre.html">Troisième Trimestre</a></li>
+        <li><a href="frances-3ro/Cahier%20de%20Fran%C3%A7ais%20-%20Quatri%C3%A8me%20Trimestre.html">Quatrième Trimestre</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h2>Inglés · 6° Primaria</h2>
+      <p class="sub">4 periodos</p>
+      <ul>
+        <li><a href="ingles-6to-primaria/Cuaderno%20de%20Ingl%C3%A9s%20-%20Primer%20Periodo.html">Primer Periodo</a></li>
+        <li><a href="ingles-6to-primaria/Cuaderno%20de%20Ingl%C3%A9s%20-%20Segundo%20Periodo.html">Segundo Periodo</a></li>
+        <li><a href="ingles-6to-primaria/Cuaderno%20de%20Ingl%C3%A9s%20-%20Tercer%20Periodo.html">Tercer Periodo</a></li>
+        <li><a href="ingles-6to-primaria/Cuaderno%20de%20Ingl%C3%A9s%20-%20Cuarto%20Periodo.html">Cuarto Periodo</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    Cada cuaderno incluye pronunciación con audio pre-grabado (voz neuronal), funciona sin conexión a internet.<br>
+    Centro Educativo Salomé Ureña — uso educativo, sin fines de lucro.
+  </footer>
+</div>
+</body>
+</html>
