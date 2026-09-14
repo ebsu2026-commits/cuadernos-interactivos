@@ -166,10 +166,10 @@ body {
 .wall-ex { font-size: 16px; line-height: 1.42; color: var(--ink); }
 .wall-ex strong { color: var(--accent-ink); }
 
-@media (min-width: 900px) {
+@media (min-width: 900px) and (min-height: 780px) {
   .alpha-frieze { display: flex; }
 }
-@media (min-width: 1080px) {
+@media (min-width: 1080px) and (min-height: 820px) {
   .wall { display: flex; }
 }
 
@@ -187,8 +187,8 @@ body {
    de al lado se reacomodan solos sin superponerse. Los umbrales piden ancho
    Y alto suficientes a la vez para no desbordar verticalmente en pantallas
    anchas pero bajas.*/
-@media (min-width: 1300px) and (min-height: 800px) {
-  .notebook-wrap { zoom: 1.12; }
+@media (min-width: 1200px) and (min-height: 650px) {
+  .notebook-wrap { zoom: 1.1; }
 }
 @media (min-width: 1600px) and (min-height: 950px) {
   .notebook-wrap { zoom: 1.28; }
