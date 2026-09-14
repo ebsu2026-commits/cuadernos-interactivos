@@ -179,6 +179,26 @@ body {
   height: min(760px, 82vh);
   perspective: 2400px;
 }
+/* Pantallas grandes (monitores externos, proyectores, TV): el tamano base arriba
+   se disenio pensando en laptop y se queda pequenio con mucho espacio vacio
+   alrededor en pantallas grandes. "zoom" (no transform) escala el cuaderno
+   entero -- texto, espiral, animacion de paginas -- y ademas SI afecta el
+   espacio que reserva en el layout, asi que el mural de palabras y el friso
+   de al lado se reacomodan solos sin superponerse. Los umbrales piden ancho
+   Y alto suficientes a la vez para no desbordar verticalmente en pantallas
+   anchas pero bajas.*/
+@media (min-width: 1300px) and (min-height: 800px) {
+  .notebook-wrap { zoom: 1.12; }
+}
+@media (min-width: 1600px) and (min-height: 950px) {
+  .notebook-wrap { zoom: 1.28; }
+}
+@media (min-width: 1900px) and (min-height: 1050px) {
+  .notebook-wrap { zoom: 1.45; }
+}
+@media (min-width: 2400px) and (min-height: 1300px) {
+  .notebook-wrap { zoom: 1.7; }
+}
 
 .spiral {
   position: absolute;
