@@ -136,6 +136,10 @@ body {
   width: 205px;
   flex-shrink: 0;
   margin-top: 40px;
+  max-height: min(600px, calc(100vh - 180px));
+  overflow-y: auto;
+  padding-right: 4px;
+  scrollbar-width: thin;
 }
 .wall-title {
   font-family: 'Space Mono', monospace; font-weight: 700; font-size: 13px;
@@ -166,10 +170,10 @@ body {
 .wall-ex { font-size: 16px; line-height: 1.42; color: var(--ink); }
 .wall-ex strong { color: var(--accent-ink); }
 
-@media (min-width: 900px) and (min-height: 780px) {
+@media (min-width: 900px) {
   .alpha-frieze { display: flex; }
 }
-@media (min-width: 1080px) and (min-height: 820px) {
+@media (min-width: 1080px) and (min-height: 600px) {
   .wall { display: flex; }
 }
 
